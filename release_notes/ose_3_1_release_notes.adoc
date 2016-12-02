@@ -445,7 +445,7 @@ different configurations). See the help text for `openshift-router`.
 The following features have entered into
 https://access.redhat.com/support/offerings/techpreview[Technology Preview]:
 
-* xref:../install_config/persistent_storage/dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[Dynamic
+* xref:../install_config/persistent_storage/storage_classes.adoc#install-config-persistent-storage-storage-classes[Dynamic
 provisioning] of persistent storage volumes from Amazon EBS, Google Compute
 Disk, OpenStack Cinder storage providers.
 

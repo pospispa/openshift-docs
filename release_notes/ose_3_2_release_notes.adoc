@@ -718,7 +718,7 @@ Features Support Scope]
 The following features are in Technology Preview:
 
 - Introduced in OpenShift Enterprise 3.1.1,
-xref:../install_config/persistent_storage/dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[dynamic
+xref:../install_config/persistent_storage/storage_classes.adoc#install-config-persistent-storage-storage-classes[dynamic
 provisioning] of persistent storage volumes from Amazon EBS, Google Compute
 Disk, OpenStack Cinder storage providers remains in Technology Preview for
 OpenShift Enterprise 3.2.

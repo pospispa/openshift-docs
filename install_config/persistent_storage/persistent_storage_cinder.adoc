@@ -31,7 +31,7 @@ framework allows administrators to provision a cluster with persistent storage
 and gives users a way to request those resources without having any knowledge of
 the underlying infrastructure.
 OpenStack Cinder volumes can be
-xref:dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[provisioned dynamically].
+xref:storage_classes.adoc#install-config-persistent-storage-storage-classes[provisioned dynamically].
 Persistent volumes are not bound to a single
 project or namespace; they can be shared across the {product-title} cluster.
 xref:../../architecture/additional_concepts/storage.adoc#persistent-volume-claims[Persistent

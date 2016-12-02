@@ -173,7 +173,7 @@ pods. It is the administrator's responsibility to ensure that the size
 requirements are sufficient for their setup and to monitor usage to ensure that
 the disk does not become full.
 
-If you would like to use xref:../install_config/persistent_storage/dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[dynamically provisioned persistent volumes] 
+If you would like to use xref:../install_config/persistent_storage/storage_classes.adoc#install-config-persistent-storage-storage-classes[dynamically provisioned persistent volumes]
 you must set the `*DYNAMICALLY_PROVISION_STORAGE*`
 xref:../install_config/cluster_metrics.adoc#modifying-the-deployer-template[template option] 
 to `true` for the Metrics Deployer.
@@ -286,7 +286,7 @@ endif::openshift-enterprise[]
 To use this feature with {product-title} metrics, it is necessary to add an
 additional flag to the metrics-deployer: `DYNAMICALLY_PROVISION_STORAGE=true`.
 You can use EBS, GCE, and Cinder storage back-ends to
-xref:../install_config/persistent_storage/dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[dynamically provision persistent volumes].
+xref:../install_config/persistent_storage/storage_classes.adoc#install-config-persistent-storage-storage-classes[dynamically provision persistent volumes].
 
 [[metrics-non-persistent-storage]]
 === Non-Persistent Storage
@@ -488,7 +488,7 @@ values when creating the Metrics Deployer.
 |Set to *true* for persistent storage; set to *false* to use non-persistent storage.
 
 |`*DYNAMICALLY_PROVISION_STORAGE*`
-|Set to *true* to allow for xref:../install_config/persistent_storage/dynamically_provisioning_pvs.adoc#install-config-persistent-storage-dynamically-provisioning-pvs[dynamically provisioned storage].
+|Set to *true* to allow for xref:../install_config/persistent_storage/storage_classes.adoc#install-config-persistent-storage-storage-classes[dynamically provisioned storage].
 
 |`*REDEPLOY*`
 |If set to *true*, the deployer will try to delete all the existing components
