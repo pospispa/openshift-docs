@@ -70,10 +70,6 @@ the master node. Do this by setting the
 |`kubernetes.io/vsphere-volume`
 |link:http://kubernetes.io/docs/getting-started-guides/vsphere/[Getting Started with vSphere and Kubernetes]
 |
-|Azure Disk
-|`kubernetes.io/azure-dd`
-|xref:../../install_config/configuring_azure.adoc#install-config-configuring-azure[Configuring for Azure]
-|
 
 |===
 
